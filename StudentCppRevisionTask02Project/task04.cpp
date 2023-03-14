@@ -25,10 +25,6 @@
 */
 
 int task04(int number) {
-	if (number < 0) {
-		number = number * -1;
-	}
-	int c = number/100;
-	int d = c%10;
-	return d;
+	number = number < 0 ? -number : number;
+	return number / 100 % 10;
 }
