@@ -23,6 +23,8 @@
 
 int task01(int seeker, int coin) {
 
+	int c =coin/seeker;
 
-	return 0;
+
+	return c;
 }
